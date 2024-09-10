@@ -1,0 +1,23 @@
+/* CSS for text alignment based on direction */
+[dir="rtl"] .lead {
+    text-align: right;
+  }
+  
+  [dir="ltr"] .lead {
+    text-align: left;
+  }
+.container
+{
+    width: 85%;
+}
+
+ 
+    /* Responsive design adjustments */
+    @media (max-width: 768px) {
+        .container{
+          width:100%;
+          margin: 0;
+          padding: 0;
+        }
+
+    }
